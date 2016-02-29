@@ -5,6 +5,6 @@ This is a basic PERL program which takes the TMSI (or also known as a pseduonym)
 Note that the encryption key must be known in order to have this work, without the correct encryption key on the 3GPP-AAA server, this will not work
 
 Just call the program
-$ ./decrypt-new.pl [TMSI] 
+$ ./decoder-new.pl [TMSI] 
 
 and the output will be the actual IMSI value
